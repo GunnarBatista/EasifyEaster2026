@@ -3368,6 +3368,38 @@
         "name": "autumn_terrain2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Tropics_entities (16 x 16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tropics_entities (16 x 16).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "_Complete_static_BG_(288 x 208).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "_Complete_static_BG_(288 x 208).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "_Complete_static_BG_(288 x 208)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "_Complete_static_BG_(288 x 208)2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SuperMarioBrosMap3-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SuperMarioBrosMap3-3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
