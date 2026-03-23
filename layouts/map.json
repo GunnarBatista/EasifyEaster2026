@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4789341884535704,
+    "zoomFactor": 0.3325387091251091,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -7419,7 +7419,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "atlasImage": "autumn_terrain.png",
+        "atlasImage": "autumn_terrain2.png",
         "rowCount": 10,
         "columnCount": 17,
         "tileSize": 16,
@@ -7451,10 +7451,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -7536,7 +7536,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "atlasImage": "Water_frames (16 x 32)2.png",
+        "atlasImage": "Water_frames (16 x 32).png",
         "rowCount": 2,
         "columnCount": 2,
         "tileSize": 16,

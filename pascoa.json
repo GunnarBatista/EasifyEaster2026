@@ -3314,10 +3314,6 @@
         "userAdded": false
       },
       {
-        "file": "autumn_terrain.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "autumn_terrain.png",
         "file": "cloud.png",
         "kind": "image",
         "metadata": "",
@@ -3358,14 +3354,18 @@
         "userAdded": false
       },
       {
-        "file": "Water_frames (16 x 32)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Water_frames (16 x 32)2.png",
         "file": "Tutorial/cloud.png",
         "kind": "image",
         "metadata": "",
         "name": "Tutorial\\cloud.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "autumn_terrain2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "autumn_terrain2.png",
         "smoothed": false,
         "userAdded": false
       }
