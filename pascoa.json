@@ -3318,6 +3318,10 @@
         "kind": "image",
         "metadata": "",
         "name": "autumn_terrain.png",
+        "file": "cloud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3358,6 +3362,10 @@
         "kind": "image",
         "metadata": "",
         "name": "Water_frames (16 x 32)2.png",
+        "file": "Tutorial/cloud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial\\cloud.png",
         "smoothed": false,
         "userAdded": false
       }
