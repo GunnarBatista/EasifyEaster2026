@@ -1,0 +1,486 @@
+{
+  "author": "",
+  "category": "",
+  "dimension": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "GameAlerts",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": [
+    {
+      "areaMaxX": 1280,
+      "areaMaxY": 200,
+      "areaMaxZ": 1,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
+      "defaultName": "",
+      "description": "",
+      "fullName": "",
+      "isUsingLegacyInstancesRenderer": false,
+      "name": "TutorialAlert1",
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "persistentUuid": "d0cf5b42-c64b-45dd-a02e-c82e8d03b48a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "54d86c7d46104e19c9a7e86e173b71bce9592b476e156846c53f11be91039afd",
+          "name": "NotJamOldStyle11",
+          "persistentUuid": "138c6505-4e44-498c-a2e0-9e329e2f6c4c",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Zona de Manifestação.",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "assets/NotJamOldStyle11.fnt",
+            "textureAtlasResourceName": "assets/NotJamOldStyle11.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "54d86c7d46104e19c9a7e86e173b71bce9592b476e156846c53f11be91039afd",
+          "name": "NotJamOldStyle12",
+          "persistentUuid": "0ef22bd7-10a1-4825-a0e7-3904cd226a4c",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "O poder de criação funciona apenas onde a energia flutua (    ). Fique sobre os brilhos amarelos, pressione [ENTER] e digite o objeto necessário para abrir caminho.",
+            "opacity": 255,
+            "scale": 0.4,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "Minecraft.fnt",
+            "textureAtlasResourceName": "Minecraft2.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "399a1826667571903da2c35290d72939703ba70eb908c9b2b4149ae5ecf3ae32",
+          "name": "Yellow_Sparkle",
+          "persistentUuid": "9273c8c3-80f7-4118-8bac-283dfb22a234",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Yellow Sparkle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Yellow Sparkle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Yellow Sparkle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Yellow Sparkle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Yellow Sparkle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NotJamOldStyle11"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "NotJamOldStyle12"
+          },
+          {
+            "objectName": "Yellow_Sparkle"
+          }
+        ]
+      },
+      "objectsGroups": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.1044003451251079,
+          "height": 100,
+          "layer": "",
+          "name": "NotJamOldStyle11",
+          "persistentUuid": "be68ed7a-bdca-4dec-b1b7-7b93d8386001",
+          "width": 1280,
+          "x": 0,
+          "y": 65,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "47221cda-f042-4fcb-a8d8-83e27d169a11",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NotJamOldStyle12",
+          "persistentUuid": "25a1e5df-f653-459d-8c2a-79852365447e",
+          "width": 874,
+          "x": 203,
+          "y": 87,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Yellow_Sparkle",
+          "persistentUuid": "da480b42-6656-417c-b3ad-1346312ffb46",
+          "width": 30,
+          "x": 868,
+          "y": 88,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6897782140104501,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "eventsFunctions": [],
+      "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "variants": []
+    }
+  ]
+}
