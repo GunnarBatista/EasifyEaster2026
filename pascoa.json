@@ -3304,6 +3304,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Arabic/58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "cloud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial/cloud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial\\cloud.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
