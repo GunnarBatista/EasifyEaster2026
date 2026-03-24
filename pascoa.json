@@ -3400,6 +3400,70 @@
         "name": "SuperMarioBrosMap3-3.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "SuperMarioBrosMap2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SuperMarioBrosMap2-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "static_spring_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "static_spring_bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Waters_version_1 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Waters_version_1 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3 - Floating_clouds 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3 - Floating_clouds 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3 - Floating_clouds2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3 - Floating_clouds2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../spring-bg/5 - Sky_color 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\spring-bg\\5 - Sky_color 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5 - Sky_color 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5 - Sky_color 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4 - Background_clouds 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4 - Background_clouds 1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3484,6 +3548,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
     }
   ],
   "externalLayouts": []
