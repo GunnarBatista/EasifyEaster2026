@@ -39,6 +39,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Reveal a text one letter after the other.",
@@ -967,6 +970,50 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "IsNextWordWrapped"
+          },
+          {
+            "functionName": "ClearForcedLineBreak"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "onActivate"
+          },
+          {
+            "functionName": "IsFinished"
+          },
+          {
+            "functionName": "HasJustTyped"
+          },
+          {
+            "functionName": "RestartFromBeginning"
+          },
+          {
+            "functionName": "JumpToPosition"
+          },
+          {
+            "functionName": "ShowFullText"
+          },
+          {
+            "functionName": "Interval"
+          },
+          {
+            "functionName": "SetInterval"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

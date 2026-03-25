@@ -1241,12 +1241,12 @@
           "JumpButton": "A"
         },
         {
-          "gravity": 350,
           "isFolded": true,
-          "jumpSpeed": 450,
-          "jumpSustainTime": 0,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 350,
+          "jumpSpeed": 450,
+          "jumpSustainTime": 0,
           "canGrabPlatforms": true,
           "ladderClimbingSpeed": 200,
           "acceleration": 400,
@@ -8139,10 +8139,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -8163,10 +8163,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],

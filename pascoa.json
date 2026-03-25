@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 261,
+    "build": 262,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3458,10 +3458,6 @@
         "userAdded": false
       },
       {
-        "file": "4 - Background_clouds 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4 - Background_clouds 1.png",
         "file": "assets/Explosion1.png",
         "kind": "image",
         "metadata": "",
@@ -3489,6 +3485,154 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Pictoicon_Feather",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "MenuBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MenuBackground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "LeaderboardButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LeaderboardButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SettingsButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SettingsButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "QuitButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "QuitButton.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SettingsButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SettingsButtonHover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "PlayButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PlayButtonHover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "LeaderboardButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LeaderboardButtonHover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "QuitButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "QuitButtonHover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "leaderboardlabel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "leaderboardlabel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/rotate-screen-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rotate-screen-icon.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Mobile Layouts/6a8102ce3340bf9f62300ee1a81ef0b2327b2c6e8d62d7dda68d547f5e2b5969_rotate-screen-icon.png",
+          "name": "rotate-screen-icon.png"
+        }
+      },
+      {
+        "file": "leaderboardplayerbackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "leaderboardplayerbackground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo6",
         "smoothed": false,
         "userAdded": false
       }
@@ -3583,6 +3727,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/loadimagefromurl"
     }
   ],
   "externalLayouts": []

@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.026942587498218,
+    "zoomFactor": 0.3111974942445548,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -89,8 +89,8 @@
       "name": "Player",
       "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
       "width": 49,
-      "x": 375,
-      "y": 402,
+      "x": 5473,
+      "y": 237,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -617,7 +617,7 @@
       "name": "Yellow_Sparkle",
       "persistentUuid": "f5bb570b-4051-4e3f-b495-dbfe6330d613",
       "width": 80,
-      "x": 1105,
+      "x": 1192,
       "y": 436,
       "zOrder": 18,
       "numberProperties": [
@@ -831,27 +831,10 @@
       "height": 80,
       "keepRatio": true,
       "layer": "UI UX",
-      "name": "book",
-      "persistentUuid": "2fffd358-e35d-4fbd-bdd1-4b52e8253d5e",
-      "width": 80,
-      "x": 1195,
-      "y": 436,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 80,
-      "keepRatio": true,
-      "layer": "UI UX",
       "name": "WriteIcon",
       "persistentUuid": "f5698131-3d30-41ab-aee7-40bfa7ed09bb",
       "width": 80,
-      "x": 1105,
+      "x": 1191,
       "y": 436,
       "zOrder": 10,
       "numberProperties": [],
@@ -1339,8 +1322,8 @@
       "name": "mapabove",
       "persistentUuid": "e1742ff8-fcfa-4afb-b9f6-e0e4937f90c2",
       "width": 784,
-      "x": 5475,
-      "y": -580,
+      "x": 5230,
+      "y": 1405,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [
@@ -1395,8 +1378,8 @@
       "name": "mapabove",
       "persistentUuid": "f2027821-355e-4962-8e21-06c4f775b1cb",
       "width": 784,
-      "x": 5475,
-      "y": -580,
+      "x": 5697,
+      "y": 1288,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [
@@ -1861,7 +1844,7 @@
       "name": "VocabularyModal",
       "persistentUuid": "e347029b-0d51-4eb4-a811-fb9cc01e2ecd",
       "width": 330,
-      "x": 918,
+      "x": 1005,
       "y": 171,
       "zOrder": 34,
       "numberProperties": [],
@@ -1877,8 +1860,8 @@
       "name": "BridgeLabel",
       "persistentUuid": "f3025385-bf69-4166-8797-8d5432edcffd",
       "width": 0,
-      "x": 1019,
-      "y": 259,
+      "x": 1112,
+      "y": 271,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -1893,8 +1876,8 @@
       "name": "TrampolineLabel",
       "persistentUuid": "a8f8ee50-825d-4280-b39f-db076d2329c5",
       "width": 0,
-      "x": 1019,
-      "y": 287,
+      "x": 1112,
+      "y": 299,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -1909,8 +1892,8 @@
       "name": "CloudLabel",
       "persistentUuid": "24e98c9e-773e-49a9-a031-6081241832af",
       "width": 0,
-      "x": 1019,
-      "y": 316,
+      "x": 1112,
+      "y": 328,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -1925,8 +1908,8 @@
       "name": "LadderLabel",
       "persistentUuid": "ffd85e2e-5cb5-4aea-b0ec-6e0f7e58c201",
       "width": 0,
-      "x": 1019,
-      "y": 346,
+      "x": 1112,
+      "y": 358,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -1993,10 +1976,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "Ladder",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "Ladder",
           "yGrabOffset": 0
         }
       ],
@@ -2062,11 +2045,11 @@
           "JumpButton": "A"
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 300,
           "jumpSpeed": 400,
           "jumpSustainTime": 0,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "ignoreDefaultControls": true,
           "canGrabPlatforms": true,
           "ladderClimbingSpeed": 200,
@@ -6099,9 +6082,9 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
@@ -10497,6 +10480,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "folded": true,
           "name": "Fullscreen",
           "source": "",
@@ -10591,6 +10575,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Points",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11384,6 +11369,86 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Spawn Ladder"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "LadderLabel",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Spawnpoint",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawnpoint",
+                    "IsOccuped",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ladder",
+                    "Spawnpoint.PointX(\"Center\")",
+                    "Spawnpoint.PointY(\"Center\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawnpoint",
+                    "IsOccuped",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Spawn Box"
             },
             {
@@ -11454,86 +11519,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Spawn Ladder"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "LadderLabel",
-                    "ButtonFSM",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Spawnpoint",
-                    "Player.X()",
-                    "Player.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Spawnpoint",
-                    "IsOccuped",
-                    "=",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Ladder",
-                    "Spawnpoint.PointX(\"Center\")",
-                    "Spawnpoint.PointY(\"Center\")",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Spawnpoint",
-                    "IsOccuped",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -11543,6 +11528,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Replace",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14833,6 +14819,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game over",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

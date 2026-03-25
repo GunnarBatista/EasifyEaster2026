@@ -41,6 +41,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Smoothly scroll to follow an object.",
@@ -1967,6 +1970,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetX",
+          "group": "Camera configuration",
           "name": "SetOffsetXOp",
           "sentence": "",
           "events": [
@@ -2108,6 +2112,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "OffsetY",
+          "group": "Camera configuration",
           "name": "SetOffsetYOp",
           "sentence": "",
           "events": [
@@ -4521,6 +4526,141 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "MoveCameraCloser"
+          },
+          {
+            "functionName": "DoMoveCameraCloser"
+          },
+          {
+            "functionName": "WaitAndCatchUp"
+          },
+          {
+            "functionName": "DrawDebug"
+          },
+          {
+            "folderName": "Camera configuration",
+            "children": [
+              {
+                "functionName": "SetFollowOnX"
+              },
+              {
+                "functionName": "SetFollowOnY"
+              },
+              {
+                "functionName": "SetFollowFreeAreaRight"
+              },
+              {
+                "functionName": "SetFollowFreeAreaLeft"
+              },
+              {
+                "functionName": "SetFollowFreeAreaTop"
+              },
+              {
+                "functionName": "SetFollowFreeAreaBottom"
+              },
+              {
+                "functionName": "SetLeftwardSpeedMax"
+              },
+              {
+                "functionName": "SetRightwardSpeedMax"
+              },
+              {
+                "functionName": "SetUpwardSpeedMax"
+              },
+              {
+                "functionName": "SetDownwardSpeedMax"
+              },
+              {
+                "functionName": "SetLeftwardSpeed"
+              },
+              {
+                "functionName": "SetRightwardSpeed"
+              },
+              {
+                "functionName": "SetDownwardSpeed"
+              },
+              {
+                "functionName": "SetUpwardSpeed"
+              },
+              {
+                "functionName": "OffsetX"
+              },
+              {
+                "functionName": "SetOffsetXOp"
+              },
+              {
+                "functionName": "SetOffsetX"
+              },
+              {
+                "functionName": "OffsetY"
+              },
+              {
+                "functionName": "SetOffsetYOp"
+              },
+              {
+                "functionName": "SetOffsetY"
+              },
+              {
+                "functionName": "SetForecastTime"
+              },
+              {
+                "functionName": "SetCameraDelay"
+              }
+            ]
+          },
+          {
+            "folderName": "Private",
+            "children": [
+              {
+                "functionName": "FreeAreaLeft"
+              },
+              {
+                "functionName": "FreeAreaRight"
+              },
+              {
+                "functionName": "FreeAreaBottom"
+              },
+              {
+                "functionName": "FreeAreaTop"
+              },
+              {
+                "functionName": "UpdateDelayedPosition"
+              },
+              {
+                "functionName": "AddForecastHistoryPosition"
+              },
+              {
+                "functionName": "UpdateForecastedPosition"
+              },
+              {
+                "functionName": "ProjectHistoryEnds"
+              },
+              {
+                "functionName": "ForecastTimeRatio"
+              }
+            ]
+          },
+          {
+            "functionName": "IsDelayed"
+          },
+          {
+            "functionName": "CurrentDelay"
+          },
+          {
+            "functionName": "IsWaiting"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0.9",
@@ -5274,6 +5414,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

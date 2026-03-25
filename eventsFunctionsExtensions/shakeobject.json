@@ -42,6 +42,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Shake objects with translation and rotation.",
@@ -2028,6 +2031,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ShakeObject_PositionAngle"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "StopShaking"
+          },
+          {
+            "functionName": "IsShaking"
+          }
+        ]
+      },
       "propertyDescriptors": [],
       "propertiesFolderStructure": {
         "folderName": "__ROOT"
@@ -4404,6 +4424,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ShakeObject_PositionAngleScale"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "StopShaking"
+          },
+          {
+            "functionName": "IsShaking"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

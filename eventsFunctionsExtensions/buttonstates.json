@@ -42,6 +42,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Use objects as buttons.",
@@ -1121,6 +1124,41 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "ResetState"
+          },
+          {
+            "functionName": "IsIdle"
+          },
+          {
+            "functionName": "IsClicked"
+          },
+          {
+            "functionName": "IsHovered"
+          },
+          {
+            "functionName": "IsFocused"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "IsPressedOutside"
+          },
+          {
+            "functionName": "TouchId"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "true",
@@ -1511,6 +1549,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "IdleEffect",
+          "group": "Button object effects configuration",
           "name": "SetIdleEffect",
           "sentence": "",
           "events": [
@@ -1591,6 +1630,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FocusedEffect",
+          "group": "Button object effects configuration",
           "name": "SetFocusedEffect",
           "sentence": "",
           "events": [
@@ -1671,6 +1711,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "PressedEffect",
+          "group": "Button object effects configuration",
           "name": "SetPressedEffect",
           "sentence": "",
           "events": [
@@ -1707,6 +1748,40 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "folderName": "Button object effects configuration",
+            "children": [
+              {
+                "functionName": "IdleEffect"
+              },
+              {
+                "functionName": "SetIdleEffect"
+              },
+              {
+                "functionName": "FocusedEffect"
+              },
+              {
+                "functionName": "SetFocusedEffect"
+              },
+              {
+                "functionName": "PressedEffect"
+              },
+              {
+                "functionName": "SetPressedEffect"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -1985,6 +2060,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "IdleAnimationName",
+          "group": "Button animation configuration",
           "name": "SetIdleAnimationName",
           "sentence": "",
           "events": [
@@ -2065,6 +2141,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FocusedAnimationName",
+          "group": "Button animation configuration",
           "name": "SetFocusedAnimationName",
           "sentence": "",
           "events": [
@@ -2145,6 +2222,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "PressedAnimationName",
+          "group": "Button animation configuration",
           "name": "SetPressedAnimationName",
           "sentence": "",
           "events": [
@@ -2181,6 +2259,40 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "folderName": "Button animation configuration",
+            "children": [
+              {
+                "functionName": "IdleAnimationName"
+              },
+              {
+                "functionName": "SetIdleAnimationName"
+              },
+              {
+                "functionName": "FocusedAnimationName"
+              },
+              {
+                "functionName": "SetFocusedAnimationName"
+              },
+              {
+                "functionName": "PressedAnimationName"
+              },
+              {
+                "functionName": "SetPressedAnimationName"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -3188,6 +3300,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "IdleValue",
+          "group": "Button effect tween configuration",
           "name": "SetIdleValue",
           "sentence": "",
           "events": [
@@ -3268,6 +3381,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FocusedValue",
+          "group": "Button effect tween configuration",
           "name": "SetFocusedValue",
           "sentence": "",
           "events": [
@@ -3348,6 +3462,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "PressedValue",
+          "group": "Button effect tween configuration",
           "name": "SetPressedValue",
           "sentence": "",
           "events": [
@@ -3429,6 +3544,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeInEasing",
+          "group": "Button effect tween configuration",
           "name": "SetFadeInEasing",
           "sentence": "",
           "events": [
@@ -3510,6 +3626,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeOutEasing",
+          "group": "Button effect tween configuration",
           "name": "SetFadeOutEasing",
           "sentence": "",
           "events": [
@@ -3590,6 +3707,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeInDuration",
+          "group": "Button effect tween configuration",
           "name": "SetFadeInDuration",
           "sentence": "",
           "events": [
@@ -3670,6 +3788,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeOutDuration",
+          "group": "Button effect tween configuration",
           "name": "SetFadeOutDuration",
           "sentence": "",
           "events": [
@@ -3706,6 +3825,85 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "TimeDelta"
+          },
+          {
+            "functionName": "FadeIn"
+          },
+          {
+            "functionName": "FadeOut"
+          },
+          {
+            "functionName": "PlayTween"
+          },
+          {
+            "folderName": "Button effect tween configuration",
+            "children": [
+              {
+                "functionName": "EffectName"
+              },
+              {
+                "functionName": "EffectProperty"
+              },
+              {
+                "functionName": "SetEffectProperty"
+              },
+              {
+                "functionName": "IdleValue"
+              },
+              {
+                "functionName": "SetIdleValue"
+              },
+              {
+                "functionName": "FocusedValue"
+              },
+              {
+                "functionName": "SetFocusedValue"
+              },
+              {
+                "functionName": "PressedValue"
+              },
+              {
+                "functionName": "SetPressedValue"
+              },
+              {
+                "functionName": "FadeInEasing"
+              },
+              {
+                "functionName": "SetFadeInEasing"
+              },
+              {
+                "functionName": "FadeOutEasing"
+              },
+              {
+                "functionName": "SetFadeOutEasing"
+              },
+              {
+                "functionName": "FadeInDuration"
+              },
+              {
+                "functionName": "SetFadeInDuration"
+              },
+              {
+                "functionName": "FadeOutDuration"
+              },
+              {
+                "functionName": "SetFadeOutDuration"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -4629,6 +4827,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "IdleScale",
+          "group": "Button scale tween configuration",
           "name": "SetIdleScale",
           "sentence": "",
           "events": [
@@ -4709,6 +4908,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FocusedScale",
+          "group": "Button scale tween configuration",
           "name": "SetFocusedScale",
           "sentence": "",
           "events": [
@@ -4789,6 +4989,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "PressedScale",
+          "group": "Button scale tween configuration",
           "name": "SetPressedScale",
           "sentence": "",
           "events": [
@@ -4869,6 +5070,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeInDuration",
+          "group": "Button scale tween configuration",
           "name": "SetFadeInDuration",
           "sentence": "",
           "events": [
@@ -4949,6 +5151,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeOutDuration",
+          "group": "Button scale tween configuration",
           "name": "SetFadeOutDuration",
           "sentence": "",
           "events": [
@@ -5030,6 +5233,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeInEasing",
+          "group": "Button scale tween configuration",
           "name": "SetFadeInEasing",
           "sentence": "",
           "events": [
@@ -5111,6 +5315,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeOutEasing",
+          "group": "Button scale tween configuration",
           "name": "SetFadeOutEasing",
           "sentence": "",
           "events": [
@@ -5147,6 +5352,70 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "FadeIn"
+          },
+          {
+            "functionName": "FadeOut"
+          },
+          {
+            "folderName": "Button scale tween configuration",
+            "children": [
+              {
+                "functionName": "IdleScale"
+              },
+              {
+                "functionName": "SetIdleScale"
+              },
+              {
+                "functionName": "FocusedScale"
+              },
+              {
+                "functionName": "SetFocusedScale"
+              },
+              {
+                "functionName": "PressedScale"
+              },
+              {
+                "functionName": "SetPressedScale"
+              },
+              {
+                "functionName": "FadeInDuration"
+              },
+              {
+                "functionName": "SetFadeInDuration"
+              },
+              {
+                "functionName": "FadeOutDuration"
+              },
+              {
+                "functionName": "SetFadeOutDuration"
+              },
+              {
+                "functionName": "FadeInEasing"
+              },
+              {
+                "functionName": "SetFadeInEasing"
+              },
+              {
+                "functionName": "FadeOutEasing"
+              },
+              {
+                "functionName": "SetFadeOutEasing"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -5987,6 +6256,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "IdleColorTint",
+          "group": "Button color tint tween",
           "name": "SetIdleColorTint",
           "sentence": "",
           "events": [
@@ -6069,6 +6339,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FocusedColorTint",
+          "group": "Button color tint tween",
           "name": "SetFocusedColorTint",
           "sentence": "",
           "events": [
@@ -6151,6 +6422,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "PressedColorTint",
+          "group": "Button color tint tween",
           "name": "SetPressedColorTint",
           "sentence": "",
           "events": [
@@ -6233,6 +6505,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeInDuration",
+          "group": "Button color tint tween",
           "name": "SetFadeInDuration",
           "sentence": "",
           "events": [
@@ -6315,6 +6588,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeOutDuration",
+          "group": "Button color tint tween",
           "name": "SetFadeOutDuration",
           "sentence": "",
           "events": [
@@ -6398,6 +6672,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeInEasing",
+          "group": "Button color tint tween",
           "name": "SetFadeInEasing",
           "sentence": "",
           "events": [
@@ -6481,6 +6756,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "FadeOutEasing",
+          "group": "Button color tint tween",
           "name": "SetFadeOutEasing",
           "sentence": "",
           "events": [
@@ -6518,6 +6794,70 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "FadeIn"
+          },
+          {
+            "functionName": "FadeOut"
+          },
+          {
+            "folderName": "Button color tint tween",
+            "children": [
+              {
+                "functionName": "IdleColorTint"
+              },
+              {
+                "functionName": "SetIdleColorTint"
+              },
+              {
+                "functionName": "FocusedColorTint"
+              },
+              {
+                "functionName": "SetFocusedColorTint"
+              },
+              {
+                "functionName": "PressedColorTint"
+              },
+              {
+                "functionName": "SetPressedColorTint"
+              },
+              {
+                "functionName": "FadeInDuration"
+              },
+              {
+                "functionName": "SetFadeInDuration"
+              },
+              {
+                "functionName": "FadeOutDuration"
+              },
+              {
+                "functionName": "SetFadeOutDuration"
+              },
+              {
+                "functionName": "FadeInEasing"
+              },
+              {
+                "functionName": "SetFadeInEasing"
+              },
+              {
+                "functionName": "FadeOutEasing"
+              },
+              {
+                "functionName": "SetFadeOutEasing"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
