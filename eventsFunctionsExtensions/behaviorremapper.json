@@ -67,6 +67,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Remap keyboard controls of the top-down movement.",
@@ -598,6 +601,20 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "SetCustom"
+          },
+          {
+            "functionName": "SetPreset"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "w",
@@ -1283,6 +1300,20 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "SetCustom"
+          },
+          {
+            "functionName": "SetPreset"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",

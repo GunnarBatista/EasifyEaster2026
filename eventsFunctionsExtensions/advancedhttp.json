@@ -1336,6 +1336,100 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "Request creation",
+        "children": [
+          {
+            "functionName": "CreateRequest"
+          },
+          {
+            "functionName": "CopyRequest"
+          }
+        ]
+      },
+      {
+        "folderName": "Request settings",
+        "children": [
+          {
+            "functionName": "SetRequestMethod"
+          },
+          {
+            "functionName": "RequestMethod"
+          },
+          {
+            "functionName": "SetRequestCache"
+          },
+          {
+            "functionName": "RequestCache"
+          },
+          {
+            "functionName": "SetRequestBody"
+          },
+          {
+            "functionName": "SetJSONRequestBody"
+          },
+          {
+            "functionName": "SetFormDataRequestBody"
+          },
+          {
+            "functionName": "RequestBody"
+          },
+          {
+            "functionName": "SetRequestHeader"
+          },
+          {
+            "functionName": "RequestHeader"
+          },
+          {
+            "functionName": "SetRequestURL"
+          },
+          {
+            "functionName": "RequestURL"
+          },
+          {
+            "functionName": "UseCORSBypass"
+          },
+          {
+            "functionName": "IsUsingCORSBypass"
+          }
+        ]
+      },
+      {
+        "folderName": "Request execution",
+        "children": [
+          {
+            "functionName": "ExecuteRequest"
+          }
+        ]
+      },
+      {
+        "folderName": "Response",
+        "children": [
+          {
+            "functionName": "ResponseSuccess"
+          },
+          {
+            "functionName": "ResponseStatusCode"
+          },
+          {
+            "functionName": "ResponseStatusText"
+          },
+          {
+            "functionName": "ResponseHeader"
+          },
+          {
+            "functionName": "ReadResponseText"
+          },
+          {
+            "functionName": "ReadResponseJSON"
+          }
+        ]
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

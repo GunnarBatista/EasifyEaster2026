@@ -1011,6 +1011,20 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "DistanceToClosestEdge"
+      },
+      {
+        "functionName": "MoveAlongBorderOfObject"
+      },
+      {
+        "functionName": "MoveToNearestCorner"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Move objects in a rectangular pattern.",
@@ -3727,6 +3741,158 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "TeleportToCorner"
+          },
+          {
+            "folderName": "Rectangular movement shape",
+            "children": [
+              {
+                "functionName": "Perimeter"
+              },
+              {
+                "functionName": "SetLeft"
+              },
+              {
+                "functionName": "SetTop"
+              },
+              {
+                "functionName": "SetRight"
+              },
+              {
+                "functionName": "SetBottom"
+              }
+            ]
+          },
+          {
+            "functionName": "LoopDuration"
+          },
+          {
+            "functionName": "HorizontalEdgeDuration"
+          },
+          {
+            "functionName": "VerticalEdgeDuration"
+          },
+          {
+            "folderName": "Rectangular movement/Shape",
+            "children": [
+              {
+                "functionName": "Width"
+              },
+              {
+                "functionName": "Height"
+              },
+              {
+                "functionName": "Left"
+              },
+              {
+                "functionName": "Top"
+              },
+              {
+                "functionName": "Right"
+              },
+              {
+                "functionName": "Bottom"
+              }
+            ]
+          },
+          {
+            "folderName": "Rectangular movement speed",
+            "children": [
+              {
+                "functionName": "SetHorizontalEdgeDuration"
+              },
+              {
+                "functionName": "SetVerticalEdgeDuration"
+              },
+              {
+                "functionName": "SetClockwise"
+              },
+              {
+                "functionName": "SetEasing"
+              }
+            ]
+          },
+          {
+            "functionName": "ToogleClockwise"
+          },
+          {
+            "functionName": "IsMovingClockwise"
+          },
+          {
+            "functionName": "IsMovingLeft"
+          },
+          {
+            "functionName": "IsMovingUp"
+          },
+          {
+            "functionName": "IsMovingRight"
+          },
+          {
+            "functionName": "IsMovingDown"
+          },
+          {
+            "functionName": "IsOnLeft"
+          },
+          {
+            "functionName": "IsOnTop"
+          },
+          {
+            "functionName": "IsOnRight"
+          },
+          {
+            "functionName": "IsOnBottom"
+          },
+          {
+            "functionName": "TopRightDuration"
+          },
+          {
+            "functionName": "BottomRightDuration"
+          },
+          {
+            "functionName": "BottomLeftDuration"
+          },
+          {
+            "functionName": "EdgeProgress"
+          },
+          {
+            "functionName": "EdgeOriginX"
+          },
+          {
+            "functionName": "EdgeOriginY"
+          },
+          {
+            "functionName": "EdgeTargetY"
+          },
+          {
+            "functionName": "EdgeTargetX"
+          },
+          {
+            "functionName": "CurrentTime"
+          },
+          {
+            "functionName": "HalfCurrentTime"
+          },
+          {
+            "functionName": "DeltaX"
+          },
+          {
+            "functionName": "DeltaY"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "100",

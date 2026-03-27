@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 261,
+    "build": 262,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3458,10 +3458,6 @@
         "userAdded": false
       },
       {
-        "file": "4 - Background_clouds 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4 - Background_clouds 1.png",
         "file": "assets/Explosion1.png",
         "kind": "image",
         "metadata": "",
@@ -3491,6 +3487,182 @@
         "name": "Pictoicon_Feather",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "4 - Background_clouds2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4 - Background_clouds2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6 - Distant_trees 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6 - Distant_trees 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6 - Distant_trees2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"6 - Distant_trees2.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "6 - Distant_trees2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Leaf_top 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Leaf_top 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5 - Tree_row_BG_2 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5 - Tree_row_BG_2 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3 - Bottom_leaf_piles 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3 - Bottom_leaf_piles 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2 - Trees 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2 - Trees 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6 - Distant_trees3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6 - Distant_trees3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4 - Tree_row_BG_1 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4 - Tree_row_BG_1 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2 - Trees2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2 - Trees2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Waters_version_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Waters_version_12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3 - Bottom_leaf_piles2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3 - Bottom_leaf_piles2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_flakes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_flakes.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_flakes2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_flakes2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_sky_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_sky_bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_sky_bg2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_sky_bg2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Snowy_foreground_area 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Snowy_foreground_area 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2 - Smaller_mountains 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2 - Smaller_mountains 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Snowy_foreground_area2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Snowy_foreground_area2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Snowy_foreground_area3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Snowy_foreground_area3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2 - Smaller_mountains2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2 - Smaller_mountains2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Snowy_foreground_area4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Snowy_foreground_area4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3518,7 +3690,12 @@
       "referenceTo": "/layouts/loadscreen"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/background"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

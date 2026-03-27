@@ -335,6 +335,20 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "SaveCheckpoint"
+      },
+      {
+        "functionName": "LoadCheckpoint"
+      },
+      {
+        "functionName": "CheckpointExist"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

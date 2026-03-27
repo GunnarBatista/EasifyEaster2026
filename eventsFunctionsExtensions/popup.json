@@ -220,6 +220,34 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "PromptValidResponse"
+      },
+      {
+        "functionName": "PromptResponse"
+      },
+      {
+        "folderName": "Web browsers",
+        "children": [
+          {
+            "functionName": "Prompt"
+          }
+        ]
+      },
+      {
+        "functionName": "Confirm"
+      },
+      {
+        "functionName": "ConfimationResponse"
+      },
+      {
+        "functionName": "Alert"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": []
 }

@@ -18,6 +18,9 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [],
   "eventsBasedObjects": [
     {
@@ -231,6 +234,9 @@
         "gameEditorMode": "instances-editor"
       },
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "propertyDescriptors": [],
       "propertiesFolderStructure": {
         "folderName": "__ROOT"
