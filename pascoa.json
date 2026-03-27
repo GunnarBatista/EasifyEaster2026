@@ -3493,6 +3493,14 @@
         "kind": "image",
         "metadata": "",
         "name": "4 - Background_clouds2.png",
+                "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "MenuBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MenuBackground.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3501,6 +3509,14 @@
         "kind": "image",
         "metadata": "",
         "name": "6 - Distant_trees 1.png",
+                "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "LeaderboardButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LeaderboardButton.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3517,6 +3533,14 @@
         "kind": "image",
         "metadata": "",
         "name": "1 - Leaf_top 1.png",
+                "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SettingsButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SettingsButton.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3525,6 +3549,14 @@
         "kind": "image",
         "metadata": "",
         "name": "5 - Tree_row_BG_2 1.png",
+                "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "QuitButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "QuitButton.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3533,6 +3565,14 @@
         "kind": "image",
         "metadata": "",
         "name": "3 - Bottom_leaf_piles 1.png",
+                "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SettingsButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SettingsButtonHover.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3541,6 +3581,14 @@
         "kind": "image",
         "metadata": "",
         "name": "2 - Trees 1.png",
+                "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "PlayButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PlayButtonHover.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3549,6 +3597,14 @@
         "kind": "image",
         "metadata": "",
         "name": "6 - Distant_trees3.png",
+                "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "LeaderboardButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LeaderboardButtonHover.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3561,10 +3617,26 @@
         "userAdded": false
       },
       {
+        "file": "QuitButtonHover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "QuitButtonHover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "2 - Trees2.png",
         "kind": "image",
         "metadata": "",
         "name": "2 - Trees2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
         "smoothed": false,
         "userAdded": false
       },
@@ -3577,10 +3649,38 @@
         "userAdded": false
       },
       {
+        "file": "leaderboardlabel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "leaderboardlabel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "3 - Bottom_leaf_piles2.png",
         "kind": "image",
         "metadata": "",
         "name": "3 - Bottom_leaf_piles2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/rotate-screen-icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rotate-screen-icon.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Mobile Layouts/6a8102ce3340bf9f62300ee1a81ef0b2327b2c6e8d62d7dda68d547f5e2b5969_rotate-screen-icon.png",
+          "name": "rotate-screen-icon.png"
+        }
+      },
+      {
+        "file": "leaderboardplayerbackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "leaderboardplayerbackground.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3593,10 +3693,26 @@
         "userAdded": false
       },
       {
+        "file": "assets/Photo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "snow_flakes2.png",
         "kind": "image",
         "metadata": "",
         "name": "snow_flakes2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo2",
         "smoothed": false,
         "userAdded": false
       },
@@ -3609,10 +3725,26 @@
         "userAdded": false
       },
       {
+        "file": "assets/Photo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "snow_sky_bg2.png",
         "kind": "image",
         "metadata": "",
         "name": "snow_sky_bg2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+        {
+        "file": "assets/Photo4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo4",
         "smoothed": false,
         "userAdded": false
       },
@@ -3621,6 +3753,14 @@
         "kind": "image",
         "metadata": "",
         "name": "1 - Snowy_foreground_area 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo5",
         "smoothed": false,
         "userAdded": false
       },
@@ -3661,6 +3801,14 @@
         "kind": "image",
         "metadata": "",
         "name": "1 - Snowy_foreground_area4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Photo6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Photo6",
         "smoothed": false,
         "userAdded": false
       }
@@ -3760,6 +3908,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/loadimagefromurl"
     }
   ],
   "externalLayouts": []
