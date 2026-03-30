@@ -5,7 +5,7 @@
   "name": "Game Scene",
   "r": 255,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 255,
   "uiSettings": {
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3111974942445548,
+    "zoomFactor": 0.43357743047028724,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -71,11 +71,6 @@
       "name": "Response",
       "type": "string",
       "value": "0"
-    },
-    {
-      "name": "Error",
-      "type": "string",
-      "value": "0"
     }
   ],
   "instances": [
@@ -89,8 +84,8 @@
       "name": "Player",
       "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
       "width": 49,
-      "x": 5473,
-      "y": 237,
+      "x": 366,
+      "y": 406,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -438,24 +433,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 137,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tutorial_Collision_Mask",
-      "opacity": 0,
-      "persistentUuid": "65e51a11-dcf9-40ab-b4d2-e5a02114a76e",
-      "width": 76,
-      "x": 502,
-      "y": 356,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 10,
       "keepRatio": true,
@@ -769,23 +746,6 @@
       "x": 1410,
       "y": 476,
       "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI UX",
-      "name": "TutorialAlert1",
-      "opacity": 0,
-      "persistentUuid": "7e52970a-1acf-4802-b7e3-33f78feb7fab",
-      "width": 0,
-      "x": 2,
-      "y": 516,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1934,15 +1894,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0.9976798143851509,
+      "height": 119.7215777262181,
       "keepRatio": true,
       "layer": "GameOver",
       "name": "Die",
       "persistentUuid": "3b7acc29-13fa-4d44-87bd-5b5e1eb8d95d",
-      "width": 0,
-      "x": 440,
-      "y": 152,
+      "width": 430,
+      "x": 425,
+      "y": 190,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -1958,8 +1919,24 @@
       "persistentUuid": "38e38892-1036-48d3-b943-eb47931ed0db",
       "width": 0,
       "x": 592.5,
-      "y": 354,
+      "y": 340,
       "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "GameOver",
+      "name": "mainmenu",
+      "persistentUuid": "fe116342-16f8-44fa-aaf7-0b948e1ae74e",
+      "width": 0,
+      "x": 544,
+      "y": 400,
+      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9735,9 +9712,9 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "DEAD",
+      "string": " DEAD",
       "font": "09884c158c08409269c534b1e1e64a36a21f087bd06f66cff077a91788a4ec9a_kenvector_future.ttf",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 120,
       "color": {
         "b": 0,
@@ -9758,10 +9735,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "DEAD",
+        "text": " DEAD",
         "font": "09884c158c08409269c534b1e1e64a36a21f087bd06f66cff077a91788a4ec9a_kenvector_future.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
         "characterSize": 120,
         "lineHeight": 0,
         "color": "255;0;0"
@@ -9814,6 +9791,61 @@
         "smoothed": true,
         "underlined": false,
         "text": "RETRY",
+        "font": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "mainmenu",
+      "persistentUuid": "1b9dfe6b-bf3b-4a90-b534-0121058475a0",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "string": "MAIN MENU",
+      "font": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "MAIN MENU",
         "font": "58f64bcc48842f9a938582fee628aa6f6b2c229db5f8e4c82a09b3ab0b7ceed5_NotoSansArabicUI-Black.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -9980,6 +10012,9 @@
       },
       {
         "objectName": "Retry"
+      },
+      {
+        "objectName": "mainmenu"
       }
     ]
   },
@@ -10003,7 +10038,7 @@
           },
           "parameters": [
             "",
-            "1.5",
+            "2",
             "",
             ""
           ]
@@ -10014,7 +10049,7 @@
           },
           "parameters": [
             "",
-            "1.5",
+            "2",
             "\"Background\"",
             ""
           ]
@@ -10279,6 +10314,18 @@
                 "1",
                 "no",
                 "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "damage.mp3",
+                "",
+                "SoundVolume",
                 ""
               ]
             }
@@ -10642,7 +10689,7 @@
                     "",
                     "PickupCoin",
                     "",
-                    "80",
+                    "SoundVolume",
                     "RandomFloatInRange(1,1.1)"
                   ]
                 }
@@ -10928,6 +10975,24 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "Vocabulary Get",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "Input Controll / Spawn Objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11073,6 +11138,78 @@
                     "WriteIcon"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "Ground",
+                "Cloud.PointX(\"LeftCollision\")",
+                "Cloud.PointY(\"LeftCollision\")"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "Cloud"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Cloud",
+                "20",
+                "0",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "Ground",
+                "Cloud.PointX(\"RightCollision\")",
+                "Cloud.PointY(\"RightCollision\")"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "Cloud"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Cloud",
+                "-20",
+                "0",
+                "1"
               ]
             }
           ]
@@ -12940,7 +13077,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Collision",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13006,6 +13142,18 @@
                     "1",
                     "no",
                     "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "damage.mp3",
+                    "",
+                    "SoundVolume",
                     ""
                   ]
                 },
@@ -14743,78 +14891,6 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionPoint"
-          },
-          "parameters": [
-            "Ground",
-            "Cloud.PointX(\"LeftCollision\")",
-            "Cloud.PointY(\"LeftCollision\")"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ClearForces"
-          },
-          "parameters": [
-            "Cloud"
-          ]
-        },
-        {
-          "type": {
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "Cloud",
-            "20",
-            "0",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionPoint"
-          },
-          "parameters": [
-            "Ground",
-            "Cloud.PointX(\"RightCollision\")",
-            "Cloud.PointY(\"RightCollision\")"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ClearForces"
-          },
-          "parameters": [
-            "Cloud"
-          ]
-        },
-        {
-          "type": {
-            "value": "AddForceXY"
-          },
-          "parameters": [
-            "Cloud",
-            "-20",
-            "0",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -14900,6 +14976,33 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "mainmenu",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -14909,7 +15012,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": true,
+      "folded": true,
       "name": "Game Finished / Save",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14923,8 +15026,8 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"https://dev.easify.com.br/v1/alguma-coisa\"",
-                "\"user_points:\" + Points",
+                "\"https://dev.easify.com.br/?api_route=easter-26\"",
+                "\"{\" + \"\\\"score\\\":\" + VariableString(Points) + \",\" + \"\\\"timescore\\\":\" + VariableString(timescore) + \"}\"",
                 "\"POST\"",
                 "",
                 "Response",

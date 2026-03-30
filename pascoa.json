@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Professores\\Desktop\\teste",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3821,10 +3821,26 @@
         "userAdded": false
       },
       {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "Winter_entities (16 x 16).png",
         "kind": "image",
         "metadata": "",
         "name": "Winter_entities (16 x 16).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
         "smoothed": false,
         "userAdded": false
       },
@@ -3837,10 +3853,26 @@
         "userAdded": false
       },
       {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "snow_bottom_snow_bg.png",
         "kind": "image",
         "metadata": "",
         "name": "snow_bottom_snow_bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
         "smoothed": false,
         "userAdded": false
       },
@@ -3875,6 +3907,16 @@
         "name": "snow_clouds_bg.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "damage.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "damage.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -3883,16 +3925,19 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "SoundVolume",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MusicVolume",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/map"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/menu"
@@ -3900,6 +3945,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/loadscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/map"
     }
   ],
   "externalEvents": [
@@ -3976,6 +4029,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/loadimagefromurl"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
     }
   ],
   "externalLayouts": []
