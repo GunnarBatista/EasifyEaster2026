@@ -12,7 +12,7 @@
           "parameters": [
             "Player",
             ">",
-            "100"
+            "6140"
           ]
         }
       ],
@@ -135,11 +135,11 @@
         },
         {
           "type": {
-            "value": "TiledSpriteObject::YOffset"
+            "value": "TiledSpriteObject::XOffset"
           },
           "parameters": [
-            "winter_snow_flakes_bg",
-            "-",
+            "winter_clouds_bg",
+            "+",
             "0.4"
           ]
         }
@@ -155,7 +155,7 @@
           "parameters": [
             "Player",
             "<",
-            "100"
+            "6140"
           ]
         }
       ],
@@ -236,7 +236,7 @@
           "parameters": [
             "Player",
             ">",
-            "100"
+            "6140"
           ]
         }
       ],

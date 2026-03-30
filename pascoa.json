@@ -3493,7 +3493,7 @@
         "kind": "image",
         "metadata": "",
         "name": "4 - Background_clouds2.png",
-                "smoothed": false,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3509,7 +3509,7 @@
         "kind": "image",
         "metadata": "",
         "name": "6 - Distant_trees 1.png",
-                "smoothed": false,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3533,7 +3533,7 @@
         "kind": "image",
         "metadata": "",
         "name": "1 - Leaf_top 1.png",
-                "smoothed": false,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3549,7 +3549,7 @@
         "kind": "image",
         "metadata": "",
         "name": "5 - Tree_row_BG_2 1.png",
-                "smoothed": false,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3565,7 +3565,7 @@
         "kind": "image",
         "metadata": "",
         "name": "3 - Bottom_leaf_piles 1.png",
-                "smoothed": false,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3581,7 +3581,7 @@
         "kind": "image",
         "metadata": "",
         "name": "2 - Trees 1.png",
-                "smoothed": false,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3597,7 +3597,7 @@
         "kind": "image",
         "metadata": "",
         "name": "6 - Distant_trees3.png",
-                "smoothed": false,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3740,7 +3740,7 @@
         "smoothed": false,
         "userAdded": false
       },
-        {
+      {
         "file": "assets/Photo4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -3809,6 +3809,70 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Photo6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Autumn_entities (16 x 16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Autumn_entities (16 x 16).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Winter_entities (16 x 16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Winter_entities (16 x 16).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1 - Snowy_foreground_area5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1 - Snowy_foreground_area5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_bottom_snow_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_bottom_snow_bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_trees_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_trees_bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_mountain_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_mountain_bg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_mountain_bg2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_mountain_bg2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_clouds_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_clouds_bg.png",
         "smoothed": false,
         "userAdded": false
       }
