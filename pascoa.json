@@ -3917,12 +3917,1403 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Plant_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/ba23721cde9390c86dc05dcf95d900a6d72ecc2f61ae2bfba2e25adbbbca71cb_Plant_Attack_1.png",
+          "name": "Plant_Attack_1.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/e41f7e38e257b768a0265da6d6132d2dd5a825926186ce9ff0a2048a9f9a877e_Plant_Attack_2.png",
+          "name": "Plant_Attack_2.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/e41f7e38e257b768a0265da6d6132d2dd5a825926186ce9ff0a2048a9f9a877e_Plant_Attack_3.png",
+          "name": "Plant_Attack_3.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/7ab6617936d1a89a09677667184a817fac06ea42d8bec7adcb55028356016bae_Plant_Attack_4.png",
+          "name": "Plant_Attack_4.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/d3cb890843928e6541f87ce596992bfd7bb33adacaca192ff8ef6c9ac402257b_Plant_Attack_5.png",
+          "name": "Plant_Attack_5.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/788881a3758a02f56745192aac19e7b6cb080d6d1ba52682b153fafacfd25126_Plant_Attack_6.png",
+          "name": "Plant_Attack_6.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/788881a3758a02f56745192aac19e7b6cb080d6d1ba52682b153fafacfd25126_Plant_Attack_7.png",
+          "name": "Plant_Attack_7.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Attack_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/781ba9ee4465912b932dd554b6b7a41fdd8ae39343c26bedd34c48d903d2230b_Plant_Attack_8.png",
+          "name": "Plant_Attack_8.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/974c7a734033357bfc642b4ece215957df7ab10f2c5d230dc6fe129ce1fdfd75_Plant_Hit_1.png",
+          "name": "Plant_Hit_1.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/974c7a734033357bfc642b4ece215957df7ab10f2c5d230dc6fe129ce1fdfd75_Plant_Hit_2.png",
+          "name": "Plant_Hit_2.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/44f9a98b814f62dfccec46757dcec01dff8dccb9c913bcb5a81fb47e530069cf_Plant_Hit_3.png",
+          "name": "Plant_Hit_3.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/e9344424e37f136ca3b371a2b3fcefb54e01551af0ca147851021cdc2acc44a8_Plant_Hit_4.png",
+          "name": "Plant_Hit_4.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/256590feae50230f8e6fec115b271221b893026463279125f211089748216481_Plant_Hit_5.png",
+          "name": "Plant_Hit_5.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/68c66381e16bc428a8426f860a8851df5cb8a37ba45aa84d724bbb6ae8353667_Plant_Idle_1.png",
+          "name": "Plant_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/d6e59c4a39bb2f2302a286649fb3731968d0ee42b1bdbcb6182bfbea03af6830_Plant_Idle_10.png",
+          "name": "Plant_Idle_10.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/d48bf88b773a364b708f6cb17001b7f49647bd1ae735c6df80bb11baf11536b7_Plant_Idle_11.png",
+          "name": "Plant_Idle_11.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/68c66381e16bc428a8426f860a8851df5cb8a37ba45aa84d724bbb6ae8353667_Plant_Idle_2.png",
+          "name": "Plant_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/68c66381e16bc428a8426f860a8851df5cb8a37ba45aa84d724bbb6ae8353667_Plant_Idle_3.png",
+          "name": "Plant_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/68c66381e16bc428a8426f860a8851df5cb8a37ba45aa84d724bbb6ae8353667_Plant_Idle_4.png",
+          "name": "Plant_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/68c66381e16bc428a8426f860a8851df5cb8a37ba45aa84d724bbb6ae8353667_Plant_Idle_5.png",
+          "name": "Plant_Idle_5.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/eab0ede7908181f75997dd959dd4ad1145d8c5dbc14f6aae7c82a952aedd031d_Plant_Idle_6.png",
+          "name": "Plant_Idle_6.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/432ec892f18fa4fd4a0707e12eab828d3a82a7efbb58ac749bdd3b7f3f5570e5_Plant_Idle_7.png",
+          "name": "Plant_Idle_7.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/67dfaa1726eca1159f432c3c592c7a35644901307cc15d04fe1b8c7e494e6e29_Plant_Idle_8.png",
+          "name": "Plant_Idle_8.png"
+        }
+      },
+      {
+        "file": "assets/Plant_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plant_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Plant/386b14a5f086f51361ffe94fde6a7a73382b46123aeef08b8b5eb81b2d7434ac_Plant_Idle_9.png",
+          "name": "Plant_Idle_9.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/b93a7075185a07a5f07e6c27e68f88aa0365fc8c9da5eeef29ce0e5965cb1fb0_Chicken_Hit_1.png",
+          "name": "Chicken_Hit_1.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/b93a7075185a07a5f07e6c27e68f88aa0365fc8c9da5eeef29ce0e5965cb1fb0_Chicken_Hit_2.png",
+          "name": "Chicken_Hit_2.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/a6a3cbdaf103d4e342edacbab7e062a3ace1ebb75878a78f01d1c6c21dd9ba1f_Chicken_Hit_3.png",
+          "name": "Chicken_Hit_3.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/c99322f224913455ae2dd41fc9d34c4054e4db9f57178468938786f64718a4f6_Chicken_Hit_4.png",
+          "name": "Chicken_Hit_4.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/d037b46e8c71c7dc395daa35f413bc80d36ee6fcb174311dd9ad8888f1a20ed1_Chicken_Hit_5.png",
+          "name": "Chicken_Hit_5.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/fbab44974cb07aa4034473cecaa27c505c9f97833b0d4428b269279d29df6eac_Chicken_Idle_1.png",
+          "name": "Chicken_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/87d187426ebb6304a5d4ab914cc82996cc87316c49652e7136f84efef3a4ba1b_Chicken_Idle_10.png",
+          "name": "Chicken_Idle_10.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/87d187426ebb6304a5d4ab914cc82996cc87316c49652e7136f84efef3a4ba1b_Chicken_Idle_11.png",
+          "name": "Chicken_Idle_11.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/87d187426ebb6304a5d4ab914cc82996cc87316c49652e7136f84efef3a4ba1b_Chicken_Idle_12.png",
+          "name": "Chicken_Idle_12.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/2fb860e76028e7022c1e2e8e5f8f339000b114e7529a36257128c65f72a234c9_Chicken_Idle_13.png",
+          "name": "Chicken_Idle_13.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/50a018bac8fdf698f25d7f1b511efc4b6d575effe0365ef7bbe247f683fcfe21_Chicken_Idle_2.png",
+          "name": "Chicken_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/cc42e9a2ad781c8cd9990a525c6df42e08dac25881793230c1b90b86cabeee0d_Chicken_Idle_3.png",
+          "name": "Chicken_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/19b6a4fe62db5ad5dcdb52839f389cd94808811fea1822366ba5b01e5a3002ae_Chicken_Idle_4.png",
+          "name": "Chicken_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/19b6a4fe62db5ad5dcdb52839f389cd94808811fea1822366ba5b01e5a3002ae_Chicken_Idle_5.png",
+          "name": "Chicken_Idle_5.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/aca796a9941104b0bae01d48d7c7fa9c39afe53d5c414d4fcfba263d828f3499_Chicken_Idle_6.png",
+          "name": "Chicken_Idle_6.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/0ae6fd59aab872f8a5960aa2431c14c6db4674b232427dfb3b80c719a109ba82_Chicken_Idle_7.png",
+          "name": "Chicken_Idle_7.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/afae39880f23e1ecb0498e57e625ab6126734647db920fe27573bf5f85f902f6_Chicken_Idle_8.png",
+          "name": "Chicken_Idle_8.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/8c6e5d11e447d41c01f552e096b82206e5407a8794b587ca497d4c09f6f4da6b_Chicken_Idle_9.png",
+          "name": "Chicken_Idle_9.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/7166f1bc413d325230b33e135f3c728b7bec65d737a61cc7a0f4f7325a8bf7f2_Chicken_Run_1.png",
+          "name": "Chicken_Run_1.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/c81e8243b5912546af2f64c3dec60db0416c4ccda83414edf973e46cbb50c730_Chicken_Run_10.png",
+          "name": "Chicken_Run_10.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/018a8f782a8db33ef5578f2372d10324393a3b74d8330f36941f71319a7dfd1c_Chicken_Run_11.png",
+          "name": "Chicken_Run_11.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/b6c05b8bd152b54cd5b496a2ba0d0c4b408cdd04d9eb9e768dfec0592cf4a4d9_Chicken_Run_12.png",
+          "name": "Chicken_Run_12.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/64e5f5ef2e3c4729fd53a7a908409a5876d498eea8ec4ec66dfb29877598649b_Chicken_Run_13.png",
+          "name": "Chicken_Run_13.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/64e5f5ef2e3c4729fd53a7a908409a5876d498eea8ec4ec66dfb29877598649b_Chicken_Run_14.png",
+          "name": "Chicken_Run_14.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/77a27b0ef74c4300c9a3cc880622119a423b97b212690d538fda492048e7350e_Chicken_Run_2.png",
+          "name": "Chicken_Run_2.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/77a27b0ef74c4300c9a3cc880622119a423b97b212690d538fda492048e7350e_Chicken_Run_3.png",
+          "name": "Chicken_Run_3.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/0df62288751119686cf42423e8a7363e3d1820af4dd5e947e1eef3f3b1a95f0a_Chicken_Run_4.png",
+          "name": "Chicken_Run_4.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/72d6aa879ba0e326dde2f27add9d04fa1c2945fba8a2603214700686a030e6c9_Chicken_Run_5.png",
+          "name": "Chicken_Run_5.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/555d0e1d17ba9492f46470abea7688edf99a6626bf16883b6440e2778597f90e_Chicken_Run_6.png",
+          "name": "Chicken_Run_6.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/555d0e1d17ba9492f46470abea7688edf99a6626bf16883b6440e2778597f90e_Chicken_Run_7.png",
+          "name": "Chicken_Run_7.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/8485bdcd6bde4ad1b02323d7a9345af7aef92293cbfeea848d493d5a4ecf6c83_Chicken_Run_8.png",
+          "name": "Chicken_Run_8.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/c81e8243b5912546af2f64c3dec60db0416c4ccda83414edf973e46cbb50c730_Chicken_Run_9.png",
+          "name": "Chicken_Run_9.png"
+        }
+      },
+      {
+        "file": "assets/Moe Scotty_Flying_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moe Scotty_Flying_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Moe Scotty/721a2a4e10684197c44cf7e45503783626965fe69d89e0ffcb8ec521349cb9cb_Moe Scotty_Flying_1.png",
+          "name": "Moe Scotty_Flying_1.png"
+        }
+      },
+      {
+        "file": "assets/Moe Scotty_Flying_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moe Scotty_Flying_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Moe Scotty/61bd890abdb5c81638a5ce987ce38e3339471127568019d8a5cb552c95c4dc9e_Moe Scotty_Flying_2.png",
+          "name": "Moe Scotty_Flying_2.png"
+        }
+      },
+      {
+        "file": "assets/Moe Scotty_Flying_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moe Scotty_Flying_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Moe Scotty/282d7c6a638d1b98be00905459b32559f050e2c58ba14a92abc388e272c5f1d7_Moe Scotty_Flying_3.png",
+          "name": "Moe Scotty_Flying_3.png"
+        }
+      },
+      {
+        "file": "assets/Moe Scotty_Flying_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moe Scotty_Flying_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Moe Scotty/f101e90eeea58e20f9cf5ecadb979d56bcd8f1ec51d10480fe894ac731e07a71_Moe Scotty_Flying_4.png",
+          "name": "Moe Scotty_Flying_4.png"
+        }
+      },
+      {
+        "file": "assets/Moe Scotty_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moe Scotty_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Moe Scotty/6222bacdb3dcc3b3571547fa2c8043a3f84add076f3bc5600f08fa6e0db6179f_Moe Scotty_Hurt.png",
+          "name": "Moe Scotty_Hurt.png"
+        }
+      },
+      {
+        "file": "assets/Moe Scotty_Sting Attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Moe Scotty_Sting Attack.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Character/Moe Scotty/6731a4a2b91570418d23a670962b5006eb7fcbb3e452960c6abab47b55a79d12_Moe Scotty_Sting Attack.png",
+          "name": "Moe Scotty_Sting Attack.png"
+        }
+      },
+      {
+        "file": "assets/Fire Projectile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Projectile_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Projectile/048f0f2145e556e3113f91fa7df9b172e0b5a2b131b5a4838eeed07abee4c7f0_Fire Projectile_1.png",
+          "name": "Fire Projectile_1.png"
+        }
+      },
+      {
+        "file": "assets/Fire Projectile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire Projectile_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Projectile/bac2ec2cbe522da61f55e09befef1d0b627e0851770b5d18d12510fbee70e1e1_Fire Projectile_2.png",
+          "name": "Fire Projectile_2.png"
+        }
+      },
+      {
+        "file": "assets/Fire Projectile_3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fire Projectile_1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fire Projectile_3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fire Projectile_2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle.png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle2.png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plant_seed_projectile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_seed_projectile.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plant_seed_projectile2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_seed_projectile2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plant_seed_projectile1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_seed_projectile1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plant_seed_projectile3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_seed_projectile3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../plant_seed_projectile3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\plant_seed_projectile3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plant_seed_projectile4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_seed_projectile4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Platform",
+      "persistentUuid": "c67773d5-7d65-46de-aa9f-802081e8e806",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 0,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 0,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "Autumn_entities (16 x 16).png",
+        "rowCount": 7,
+        "columnCount": 20,
+        "tileSize": 16,
+        "tilesWithHitBox": "75,76,77,74,78"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "winter_decorations",
+      "persistentUuid": "6290bfe8-2ae0-4fcf-9045-35d02956f7a1",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Winter_entities (16 x 16).png",
+        "rowCount": 14,
+        "columnCount": 28,
+        "tileSize": 8,
+        "tilesWithHitBox": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "spring_decorations",
+      "persistentUuid": "56896eab-f125-48d0-8719-f6b5f51933c3",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Tropics_entities (16 x 16).png",
+        "rowCount": 9,
+        "columnCount": 17,
+        "tileSize": 16,
+        "tilesWithHitBox": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "autumn_decorations",
+      "persistentUuid": "3f55e33c-2a07-4486-ae66-44ec988d9143",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Autumn_entities (16 x 16).png",
+        "rowCount": 7,
+        "columnCount": 20,
+        "tileSize": 16,
+        "tilesWithHitBox": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "winter_mountain_bg",
+      "persistentUuid": "76280c8a-12fe-4c4a-89f9-28cbc0783d87",
+      "texture": "snow_mountain_bg2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.3,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "winter_snow_row_bg",
+      "persistentUuid": "2d14a6f1-2fc3-4737-8ef3-7297764a2668",
+      "texture": "snow_trees_bg.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.4,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "winter_bottom_bg",
+      "persistentUuid": "89687431-985f-4194-b558-8b0d86fd3949",
+      "texture": "snow_bottom_snow_bg.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.5,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "winter_snow_sky_bg",
+      "persistentUuid": "450db74c-2f4e-4685-b79b-1480e9f1ea4f",
+      "texture": "snow_sky_bg2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.4,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "winter_clouds_bg",
+      "persistentUuid": "f90c288a-40c2-421c-814a-3a712db07e69",
+      "texture": "snow_clouds_bg.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "winter_snow_flakes_bg",
+      "persistentUuid": "604d6d74-ae9c-41c3-8d35-6656f7d5f8f9",
+      "texture": "snow_flakes2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.2,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "autumn_trees_bg",
+      "persistentUuid": "2404768b-e7e7-4f69-b370-f08920d959da",
+      "texture": "2 - Trees2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.4,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "autumn_bottom_leaf_bg",
+      "persistentUuid": "e420e002-d78c-4528-a1c4-8a24fb7d343e",
+      "texture": "3 - Bottom_leaf_piles2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.5,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "autumn_tree_row_bg2",
+      "persistentUuid": "16b5556e-bda7-4e8f-b7c5-40f13af39114",
+      "texture": "4 - Tree_row_BG_1 1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.3,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "autumn_tree_row_bg",
+      "persistentUuid": "a527be62-7352-441e-8d61-4bb00317897d",
+      "texture": "5 - Tree_row_BG_2 1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.2,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "autumn_distant_trees_bg",
+      "persistentUuid": "413e0513-b979-41a4-96da-45f0e15e6c61",
+      "texture": "6 - Distant_trees3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.1,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "spring_mountain_bg",
+      "persistentUuid": "3fa8aedf-9b5f-4f8e-bf5c-2091cdbe24d3",
+      "texture": "4 - Background_clouds2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.2,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "spring_sky_bg",
+      "persistentUuid": "efe0ac57-98ca-4b7f-9ce7-c7f30090bc3a",
+      "texture": "5 - Sky_color 2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.1,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "spring_cloud_bg",
+      "persistentUuid": "972332cc-8fc1-4ac4-a761-2dc37857e521",
+      "texture": "3 - Floating_clouds2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "spring_water_bg",
+      "persistentUuid": "091f17f9-e10e-4d21-b955-2368b4881b80",
+      "texture": "1 - Waters_version_12.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax",
+          "ParallaxFactor": 0.3,
+          "FollowedLayer": ""
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "spring_terrain",
+      "persistentUuid": "2e9143e4-8413-4832-80cc-0caba5751ecb",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "spring_terrain.png",
+        "rowCount": 10,
+        "columnCount": 17,
+        "tileSize": 16,
+        "tilesWithHitBox": "37,88,105,21,38,89,106,39,90,107,69,53,70,57,74,75,61,63,64,45,79,96,54,71,55,72,56,73,52,20,22,60,28,66,58,130"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "autumn_terrain",
+      "persistentUuid": "947368c3-127d-4302-ac08-1357ebee1c21",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "autumn_terrain2.png",
+        "rowCount": 10,
+        "columnCount": 17,
+        "tileSize": 16,
+        "tilesWithHitBox": "52,69,53,70,57,74,58,75,20,37,88,105,21,38,89,106,22,39,90,107,28,45,79,96,60,61,63,64,66,54,71,55,72,56,73"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "winter_terrain",
+      "persistentUuid": "27079829-829e-4fa9-a5d2-b7ebb7fcd182",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "winter_terrain.png",
+        "rowCount": 10,
+        "columnCount": 17,
+        "tileSize": 16,
+        "tilesWithHitBox": "20,37,88,105,21,38,89,106,22,39,90,107,52,69,53,70,57,74,58,75,54,71,55,72,56,73,28,45,79,96,60,61,63,64,62,66"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "grass_terrain",
+      "persistentUuid": "d43edf7a-5b72-429a-a7f1-0f176b15ff6c",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "grass_terrain.png",
+        "rowCount": 10,
+        "columnCount": 17,
+        "tileSize": 16,
+        "tilesWithHitBox": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "water",
+      "persistentUuid": "1d692273-0141-4a2d-8dad-f4de45b4367e",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Water_frames (16 x 32).png",
+        "rowCount": 2,
+        "columnCount": 2,
+        "tileSize": 16,
+        "tilesWithHitBox": ""
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Platform"
+      },
+      {
+        "objectName": "winter_decorations"
+      },
+      {
+        "objectName": "spring_decorations"
+      },
+      {
+        "objectName": "autumn_decorations"
+      },
+      {
+        "objectName": "winter_mountain_bg"
+      },
+      {
+        "objectName": "winter_snow_row_bg"
+      },
+      {
+        "objectName": "winter_bottom_bg"
+      },
+      {
+        "objectName": "winter_snow_sky_bg"
+      },
+      {
+        "objectName": "winter_clouds_bg"
+      },
+      {
+        "objectName": "winter_snow_flakes_bg"
+      },
+      {
+        "objectName": "autumn_trees_bg"
+      },
+      {
+        "objectName": "autumn_bottom_leaf_bg"
+      },
+      {
+        "objectName": "autumn_tree_row_bg2"
+      },
+      {
+        "objectName": "autumn_tree_row_bg"
+      },
+      {
+        "objectName": "autumn_distant_trees_bg"
+      },
+      {
+        "objectName": "spring_mountain_bg"
+      },
+      {
+        "objectName": "spring_sky_bg"
+      },
+      {
+        "objectName": "spring_cloud_bg"
+      },
+      {
+        "objectName": "spring_water_bg"
+      },
+      {
+        "objectName": "spring_terrain"
+      },
+      {
+        "objectName": "autumn_terrain"
+      },
+      {
+        "objectName": "winter_terrain"
+      },
+      {
+        "objectName": "grass_terrain"
+      },
+      {
+        "objectName": "water"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -4033,6 +5424,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/dragcamerawithpointer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
     }
   ],
   "externalLayouts": []
