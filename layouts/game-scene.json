@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.604083874998996,
+    "zoomFactor": 0.20902556228339061,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -71,6 +71,11 @@
       "name": "Response",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "WasJumping",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -205,24 +210,6 @@
       "x": 470,
       "y": -6074,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 10,
-      "keepRatio": true,
-      "layer": "",
-      "name": "PlayerSpawnPoint",
-      "opacity": 0,
-      "persistentUuid": "87001995-d5de-450e-b1d0-7eda503a4d87",
-      "width": 10,
-      "x": 134,
-      "y": -6168,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3369,8 +3356,8 @@
       "name": "Player",
       "persistentUuid": "b3f848a0-64a6-474d-9807-cab765137272",
       "width": 52.55865921787709,
-      "x": 10,
-      "y": 543,
+      "x": 14378,
+      "y": -536,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -4570,6 +4557,24 @@
       "x": 599.5,
       "y": 12,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 10,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PlayerSpawnPoint",
+      "opacity": 0,
+      "persistentUuid": "0de500c9-5d6b-4da9-a03c-fe7a8d165ef4",
+      "width": 10,
+      "x": 43,
+      "y": 524,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6456,7 +6461,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 570
+                      },
+                      {
+                        "x": 0,
+                        "y": 570
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -6479,7 +6503,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 570
+                      },
+                      {
+                        "x": 0,
+                        "y": 570
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -6502,7 +6545,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 570
+                      },
+                      {
+                        "x": 0,
+                        "y": 570
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -6525,7 +6587,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 570
+                      },
+                      {
+                        "x": 0,
+                        "y": 570
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -6548,7 +6629,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 570
+                      },
+                      {
+                        "x": 0,
+                        "y": 570
+                      }
+                    ]
+                  ]
                 },
                 {
                   "hasCustomCollisionMask": true,
@@ -6571,7 +6671,81 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 0
+                      },
+                      {
+                        "x": 312,
+                        "y": 570
+                      },
+                      {
+                        "x": 0,
+                        "y": 570
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Crouch",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "crouch2.png",
+                  "points": [
+                    {
+                      "name": "Damage",
+                      "x": 160,
+                      "y": 570
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 285
+                      },
+                      {
+                        "x": 312,
+                        "y": 285
+                      },
+                      {
+                        "x": 312,
+                        "y": 570
+                      },
+                      {
+                        "x": 0,
+                        "y": 570
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -20103,7 +20277,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Points",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20755,6 +20928,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Spawn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20814,6 +20988,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "scribbling.mp3",
+                    "",
+                    "SoundVolume",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Create"
@@ -20907,6 +21093,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "scribbling.mp3",
+                    "",
+                    "SoundVolume",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -20996,6 +21194,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "scribbling.mp3",
+                    "",
+                    "SoundVolume",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Create"
@@ -21097,6 +21307,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "scribbling.mp3",
+                    "",
+                    "SoundVolume",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Create"
@@ -21229,7 +21451,6 @@
               "comment": "Replace to Bridge"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -21301,6 +21522,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -21357,6 +21590,18 @@
                       },
                       "parameters": [
                         "Cloud",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
                         ""
                       ]
                     },
@@ -21424,6 +21669,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -21473,7 +21730,6 @@
               "comment": "Replace to Trampoline"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -21545,6 +21801,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -21601,6 +21869,18 @@
                       },
                       "parameters": [
                         "Cloud",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
                         ""
                       ]
                     },
@@ -21668,6 +21948,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -21717,7 +22009,6 @@
               "comment": "Replace to Cloud"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -21789,6 +22080,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -21851,6 +22154,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -21908,6 +22223,18 @@
                       },
                       "parameters": [
                         "Ladder",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
                         ""
                       ]
                     },
@@ -21962,7 +22289,6 @@
               "comment": "Replace to Ladder"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -22034,6 +22360,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -22085,6 +22423,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -22130,6 +22480,18 @@
                       },
                       "parameters": [
                         "Cloud",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "scribbling.mp3",
+                        "",
+                        "SoundVolume",
                         ""
                       ]
                     },
@@ -22375,6 +22737,63 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Crouch\""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -22386,7 +22805,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Controls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22662,6 +23080,99 @@
                     "Player",
                     "PlatformerObject",
                     "\"Jump\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "WasJumping",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "jump.mp3",
+                        "",
+                        "SoundVolume",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "WasJumping",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WasJumping",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -23570,6 +24081,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "enemy_hurt.mp3",
+                "",
+                "SoundVolume",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlatformBehavior::SetCanJump"
               },
               "parameters": [
@@ -23674,6 +24197,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "enemy_hurt.mp3",
+                "",
+                "SoundVolume",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlatformBehavior::SetCanJump"
               },
               "parameters": [
@@ -23774,6 +24309,18 @@
                 "Animation",
                 "=",
                 "\"Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "enemy_hurt.mp3",
+                "",
+                "SoundVolume",
+                ""
               ]
             },
             {
@@ -24007,6 +24554,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "plant_fire.mp3",
+                    "",
+                    "SoundVolume",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "FireBullet::FireBullet::Fire"
                   },
                   "parameters": [
@@ -24029,6 +24588,23 @@
                     "Scale",
                     "=",
                     "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Fire_Projectile",
+                    ""
                   ]
                 }
               ]
@@ -24859,7 +25435,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Falling Plataforms",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -25527,7 +26102,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game over",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

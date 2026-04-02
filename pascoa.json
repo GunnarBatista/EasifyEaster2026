@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "C:\\Users\\Professores\\Desktop\\teste",
+    "latestCompilationDirectory": "C:\\Users\\Professores\\Desktop\\Game Páscoa",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -4765,6 +4765,62 @@
         "name": "plant_seed_projectile4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "plant_fire.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "plant_fire.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "enemy_hurt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "enemy_hurt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scribbling.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scribbling.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "crouch.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"crouch.png\",\"extension\":\".png\"}",
+        "name": "crouch.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crouch2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"crouch2.png\",\"extension\":\".png\"}",
+        "name": "crouch2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -5320,7 +5376,7 @@
     {
       "name": "SoundVolume",
       "type": "number",
-      "value": 0
+      "value": 50
     },
     {
       "name": "MusicVolume",
