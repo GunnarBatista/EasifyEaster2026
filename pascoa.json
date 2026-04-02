@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Menu",
   "gdVersion": {
     "build": 262,
     "major": 5,
@@ -70,7 +70,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -4819,6 +4819,154 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"crouch2.png\",\"extension\":\".png\"}",
         "name": "crouch2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/Crouch.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\Crouch.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/Walking Grass.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\Walking Grass.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/Walking Sand.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\Walking Sand.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/Walking Snow.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\Walking Snow.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/enemy_hurt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\enemy_hurt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/plant_fire.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\plant_fire.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/damage.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\damage.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/scribbling.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\scribbling.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "SFX/Checkpoint.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SFX\\Checkpoint.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "village.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "village.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "finalscreensprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "finalscreensprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
         "smoothed": false,
         "userAdded": false
       }

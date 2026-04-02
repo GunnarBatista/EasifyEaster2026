@@ -30,7 +30,7 @@
     {
       "name": "JsonResponse",
       "type": "string",
-      "value": "[{\"position\":1,\"imageUrl\":\"https://example.com/images/avatar2.png\",\"nome\":\"Ana Silva\",\"score\":1250},{\"position\":2,\"imageUrl\":\"https://easify.com.br/wp-content/uploads/2024/02/matheus-profile-1.jpeg\",\"nome\":\"Bruno Costa\",\"score\":1180},{\"position\":3,\"imageUrl\":\"https://example.com/images/avatar3.png\",\"nome\":\"Carla Santos\",\"score\":1020},{\"position\":4,\"imageUrl\":\"https://example.com/images/avatar4.png\",\"nome\":\"Daniel Pereira\",\"score\":950},{\"position\":5,\"imageUrl\":\"https://easify.com.br/wp-content/uploads/2024/02/matheus-profile-1.jpeg\",\"nome\":\"Eduarda Lima\",\"score\":880}]"
+      "value": "\"\""
     },
     {
       "name": "JsonError",
@@ -2648,7 +2648,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Get LeaderBoard JSON",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2662,7 +2661,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "",
+                    "\"https://dev.easify.com.br/?api_route=easter-26\"",
                     "\"\"",
                     "\"GET\"",
                     "",
@@ -2749,7 +2748,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Menu Buttons Controller",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3201,7 +3199,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Click Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3376,7 +3373,6 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
