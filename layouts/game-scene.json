@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1343715797162979,
+    "zoomFactor": 0.604083874998996,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -807,7 +807,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI UX",
-      "name": "teste",
+      "name": "Timer",
       "opacity": 0,
       "persistentUuid": "53ea701b-4964-433b-92a7-731705bc8c42",
       "width": 0,
@@ -2109,48 +2109,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
+      "customSize": true,
+      "depth": 0,
+      "height": 23,
       "layer": "UI UX",
-      "name": "teste",
+      "name": "Timer",
       "persistentUuid": "f61c31bb-4b23-4f9d-8049-824ff4e7f7b1",
-      "width": 0,
-      "x": 634,
-      "y": 46,
+      "width": 60,
+      "x": 610,
+      "y": 26,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI UX",
-      "name": "y2",
-      "persistentUuid": "84ecb58e-c2f1-49df-a39f-a55e366a00a7",
-      "width": 0,
-      "x": 850,
-      "y": 22,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI UX",
-      "name": "y",
-      "persistentUuid": "67e74574-2173-4721-b3c5-0d54d14eb19d",
-      "width": 0,
-      "x": 848,
-      "y": 66,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3401,8 +3369,8 @@
       "name": "Player",
       "persistentUuid": "b3f848a0-64a6-474d-9807-cab765137272",
       "width": 52.55865921787709,
-      "x": 14106,
-      "y": -528,
+      "x": 10,
+      "y": 543,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -4585,6 +4553,23 @@
       "x": 14578,
       "y": -514,
       "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 35,
+      "keepRatio": true,
+      "layer": "UI UX",
+      "name": "egsscountbackground",
+      "persistentUuid": "3a77be66-5e1c-4f82-85b1-369921cddb82",
+      "width": 81,
+      "x": 599.5,
+      "y": 12,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6902,7 +6887,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "teste",
+      "name": "Timer",
       "persistentUuid": "71e5b408-6cc7-4138-abcc-2efdd5ad92a2",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -6910,13 +6895,13 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text",
+      "string": "0",
       "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
+      "textAlignment": "center",
+      "characterSize": 25,
       "color": {
-        "b": 0,
-        "g": 0,
+        "b": 255,
+        "g": 255,
         "r": 255
       },
       "content": {
@@ -6933,13 +6918,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text",
+        "text": "0",
         "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 25,
         "lineHeight": 0,
-        "color": "255;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -16823,10 +16808,10 @@
       "effects": [],
       "behaviors": [
         {
-          "gravity": 0,
           "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 0,
           "acceleration": 1500,
           "canGoDownFromJumpthru": false,
           "canGrabPlatforms": false,
@@ -19309,7 +19294,7 @@
         "objectName": "InputText"
       },
       {
-        "objectName": "teste"
+        "objectName": "Timer"
       },
       {
         "objectName": "Bridge"
@@ -19912,7 +19897,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Always Update",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19927,13 +19911,25 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "teste",
+                "Timer",
                 "Text",
                 "=",
                 "ToString(Player.Health::Health())"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Timer"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -19947,6 +19943,62 @@
                 "Time",
                 "=",
                 "TimerElapsedTime(\"Timer\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(floor(Variable(Time)), 60)",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Timer",
+                "Text",
+                "=",
+                "ToString(floor(Variable(Time) / 60)) + \":0\" + ToString(mod(floor(Variable(Time)), 60))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(floor(Variable(Time)), 60)",
+                ">=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Timer",
+                "Text",
+                "=",
+                "ToString(floor(Variable(Time) / 60)) + \":\" + ToString(mod(floor(Variable(Time)), 60))"
               ]
             }
           ]
