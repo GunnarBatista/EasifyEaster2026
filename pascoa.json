@@ -920,78 +920,6 @@
         }
       },
       {
-        "file": "assets/1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/0bf76c6d-56f2-47a4-a346-5a4bb3d57929/resources/d6beda0606e38ea09bf3e0d68e18c13b98627d1e9080fa7ce08ff16c95e1fae0-1.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/0bf76c6d-56f2-47a4-a346-5a4bb3d57929/resources/f0f017dd2b31d8522e6c2210c69033dde1973553ca58699ded93f1817ac54a1e-2.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/0bf76c6d-56f2-47a4-a346-5a4bb3d57929/resources/5b4e380750a99c50cc6e61bd66f5fd8fd52809279c0aa867bd66d673431e574d-3.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/0bf76c6d-56f2-47a4-a346-5a4bb3d57929/resources/3af72112b7166ce03403a743e26d1c63345aa96801cc012766f6538e90fe64a2-4.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/0bf76c6d-56f2-47a4-a346-5a4bb3d57929/resources/a2249542c43706dee1e61b6a44947c0908627d6ccbf3c63e5607cab22904d958-5.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/0bf76c6d-56f2-47a4-a346-5a4bb3d57929/resources/dbbe94c958448a23db0ef105f47c07bfd65603ad2e8d5de80188f27c7f09f136-6.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
         "file": "assets/w1.png",
         "kind": "image",
         "metadata": "",
@@ -4970,62 +4898,6 @@
         "userAdded": false
       },
       {
-        "file": "Tutorial 01.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tutorial 01.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Tutorial 02.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tutorial 02.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Tutorial 03.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tutorial 03.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Tutorial 04.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tutorial 04.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Tutorial 05.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tutorial 05.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Tutorial 06.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tutorial 06.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Tutorial 07.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tutorial 07.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "slide_back.png",
         "kind": "image",
         "metadata": "",
@@ -5038,6 +4910,138 @@
         "kind": "image",
         "metadata": "",
         "name": "slide_forward.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 25\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":0.08,\\\"tremoloDepth\\\":100,\\\"tremoloFrequency\\\":661.6797272048301,\\\"frequency\\\":198.49096204322166,\\\"frequencySweep\\\":6.861983184217331,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":0,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":3,\\\"harmonicsFalloff\\\":0.39,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":65,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "book_open.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "book_open.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "close_menu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "close_menu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "book_open2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "book_open2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "main_bg_music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main_bg_music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "main_bg_music2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "main_bg_music2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial23.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial24.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "plant_seed_projectile5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_seed_projectile5.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -5595,12 +5599,12 @@
     {
       "name": "SoundVolume",
       "type": "number",
-      "value": 50
+      "value": 100
     },
     {
       "name": "MusicVolume",
       "type": "number",
-      "value": 0
+      "value": 50
     }
   ],
   "layouts": [

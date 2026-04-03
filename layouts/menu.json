@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6897782140104529,
+    "zoomFactor": 2.1301659159002826,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2527,7 +2527,21 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "main_bg_music2.mp3",
+            "0",
+            "",
+            "MusicVolume",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "colorB": 228,
@@ -2539,6 +2553,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2566,6 +2581,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2661,7 +2677,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"https://dev.easify.com.br/?api_route=easter-26\"",
+                    "\"https://easify.com.br/?api_route=easter-26\"",
                     "\"\"",
                     "\"GET\"",
                     "",
@@ -4003,7 +4019,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4283,6 +4298,17 @@
                         "MusicVolume",
                         "=",
                         "round(MusicLoud/3.5)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetMusicChannelVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "0",
+                        "=",
+                        "MusicVolume"
                       ]
                     },
                     {
