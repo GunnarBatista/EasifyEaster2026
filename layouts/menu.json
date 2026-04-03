@@ -2527,27 +2527,14 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlayMusicOnChannel"
-          },
-          "parameters": [
-            "",
-            "main_bg_music2.mp3",
-            "0",
-            "",
-            "MusicVolume",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Set Volume Variables",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2667,36 +2654,7 @@
           "name": "Get LeaderBoard JSON",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SendAsyncRequest"
-                  },
-                  "parameters": [
-                    "\"https://easify.com.br/?api_route=easter-26\"",
-                    "\"\"",
-                    "\"GET\"",
-                    "",
-                    "JsonResponse",
-                    "JsonError"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "JSONToVariableStructure2"
-                  },
-                  "parameters": [
-                    "JsonResponse",
-                    "ParseJson"
-                  ]
-                }
-              ]
-            }
-          ],
+          "events": [],
           "parameters": []
         },
         {
@@ -3220,6 +3178,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3242,6 +3201,38 @@
                     "",
                     "\"LoadScreen\"",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "MusicPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusicOnChannel"
+                      },
+                      "parameters": [
+                        "",
+                        "main_bg_music2.mp3",
+                        "0",
+                        "",
+                        "MusicVolume",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -3300,6 +3291,41 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SendAsyncRequest"
+                      },
+                      "parameters": [
+                        "\"https://easify.com.br/?api_route=easter-26\"",
+                        "\"\"",
+                        "\"GET\"",
+                        "",
+                        "JsonResponse",
+                        "JsonError"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "JSONToVariableStructure2"
+                      },
+                      "parameters": [
+                        "JsonResponse",
+                        "ParseJson"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
@@ -3321,10 +3347,41 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "MusicPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusicOnChannel"
+                      },
+                      "parameters": [
+                        "",
+                        "main_bg_music2.mp3",
+                        "0",
+                        "",
+                        "MusicVolume",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3381,6 +3438,36 @@
                       },
                       "parameters": [
                         "Close_round_button",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "MusicPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusicOnChannel"
+                      },
+                      "parameters": [
+                        "",
+                        "main_bg_music2.mp3",
+                        "0",
+                        "",
+                        "MusicVolume",
                         ""
                       ]
                     }
@@ -3531,7 +3618,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Populate Leaderboard",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4014,6 +4100,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Volume",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

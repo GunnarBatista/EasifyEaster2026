@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2912258866911742,
+    "zoomFactor": 2.130165915900731,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -4938,6 +4938,57 @@
       "width": 24,
       "x": 15761,
       "y": -454,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Eggs",
+      "persistentUuid": "ad765cc6-50fe-4c63-9410-36741e04189f",
+      "width": 24,
+      "x": 832,
+      "y": 504,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Eggs",
+      "persistentUuid": "1f944900-baad-45c5-b74f-88eac0f76ece",
+      "width": 24,
+      "x": 867,
+      "y": 504,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Eggs",
+      "persistentUuid": "62dcb35f-aa16-42bf-9faa-b52b8b9193c3",
+      "width": 24,
+      "x": 900,
+      "y": 504,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -10162,7 +10213,7 @@
       ],
       "animations": [
         {
-          "name": "Pictoicon_Feather",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -21001,6 +21052,7 @@
       "target": "background"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -25812,12 +25864,13 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Monster",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": true,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -26825,6 +26878,7 @@
     },
     {
       "disabled": true,
+      "folded": true,
       "type": "BuiltinCommonInstructions::ForEach",
       "object": "Monster",
       "conditions": [
@@ -26906,6 +26960,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Health Controll",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -27940,6 +27995,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Pause Game",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -28630,7 +28686,14 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -28648,6 +28711,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
