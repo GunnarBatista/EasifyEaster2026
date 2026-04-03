@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 262,
+    "build": 264,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -81,7 +81,6 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -4967,6 +4966,78 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial 01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial 02.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial 03.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial 04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial 05.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial 06.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tutorial 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial 07.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slide_back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slide_back.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "slide_forward.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slide_forward.png",
         "smoothed": false,
         "userAdded": false
       }
