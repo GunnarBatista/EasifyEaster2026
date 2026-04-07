@@ -1029,8 +1029,11 @@
     {
       "description": "Move objects in a rectangular pattern.",
       "fullName": "Rectangular movement",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "RectangleMovement",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",

@@ -1,14 +1,14 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 264,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
-    "antialiasingMode": "MSAA",
+    "antialiasingMode": "none",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
@@ -24,7 +24,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "C:\\Users\\Nuvie\\Desktop\\Easter2026",
+    "latestCompilationDirectory": "C:\\Users\\Professores\\Desktop\\Pascoa2026",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3435,6 +3435,16 @@
         "name": "plant_seed_projectile5.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "spring_boing_trampoline.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "spring_boing_trampoline.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -3906,6 +3916,78 @@
         "tileSize": 16,
         "tilesWithHitBox": ""
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FullscreenIcon",
+      "persistentUuid": "2b129c7f-1fdc-484f-9ec0-2b89ec3638be",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "maximize.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 512
+                      },
+                      {
+                        "x": 0,
+                        "y": 512
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3982,6 +4064,9 @@
       },
       {
         "objectName": "water"
+      },
+      {
+        "objectName": "FullscreenIcon"
       }
     ]
   },
@@ -3996,6 +4081,11 @@
       "name": "MusicVolume",
       "type": "number",
       "value": 50
+    },
+    {
+      "name": "isFullscreen",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

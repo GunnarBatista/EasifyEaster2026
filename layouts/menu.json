@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.1301659159002826,
+    "zoomFactor": 1.1343715797161016,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -353,6 +353,23 @@
       "x": 613.5,
       "y": 410,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "Menu",
+      "name": "FullscreenIcon",
+      "persistentUuid": "9fc98f15-6f46-4494-ad55-3d1cb1d560c9",
+      "width": 40,
+      "x": 1230,
+      "y": 10,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2722,6 +2739,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Menu Buttons Controller",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2779,6 +2797,16 @@
                 "ButtonFSM",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "FullscreenIcon",
+                "ButtonFSM",
+                "yes"
+              ]
             }
           ]
         },
@@ -2833,6 +2861,16 @@
               },
               "parameters": [
                 "LeaderboardButton",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "FullscreenIcon",
                 "ButtonFSM",
                 "no"
               ]
@@ -3173,6 +3211,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Click Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3299,10 +3338,11 @@
                   "actions": [
                     {
                       "type": {
+                        "await": true,
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://easify.com.br/?api_route=easter-26\"",
+                        "\"https://easify.com.br/wp-json/easter-26/v1/ranking\"",
                         "\"\"",
                         "\"GET\"",
                         "",
@@ -3317,6 +3357,147 @@
                       "parameters": [
                         "JsonResponse",
                         "ParseJson"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ID",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "VariableChildCount(ParseJson)",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "LeaderboardPlayerBackground",
+                            "640",
+                            "((ParseJson[ID].position-1) * 105) + 220",
+                            "\"Leaderboard\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Name",
+                            "295",
+                            "((ParseJson[ID].position-1) * 105) + 200",
+                            "\"Leaderboard\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Name",
+                            "Text",
+                            "=",
+                            "ParseJson[ID].name"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "TotalPoints",
+                            "1080",
+                            "((ParseJson[ID].position-1) * 105) + 205",
+                            "\"Leaderboard\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "TotalPoints",
+                            "Text",
+                            "=",
+                            "ParseJson[ID].score"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "EggSprite",
+                            "1050",
+                            "((ParseJson[ID].position-1) * 105) + 220",
+                            "\"Leaderboard\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "EggSprite",
+                            "Scale",
+                            "=",
+                            "0.75"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "PositionLabel",
+                            "150",
+                            "((ParseJson[ID].position-1) * 105) + 195",
+                            "\"Leaderboard\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "PositionLabel",
+                            "Text",
+                            "=",
+                            "ParseJson[ID].position"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "ID",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3502,6 +3683,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3618,145 +3800,15 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Populate Leaderboard",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "VariableChildCount(ParseJson)",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "LeaderboardPlayerBackground",
-                "640",
-                "((ParseJson[ID].position-1) * 105) + 220",
-                "\"Leaderboard\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Name",
-                "295",
-                "((ParseJson[ID].position-1) * 105) + 200",
-                "\"Leaderboard\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Name",
-                "Text",
-                "=",
-                "ParseJson[ID].nome"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "TotalPoints",
-                "1080",
-                "((ParseJson[ID].position-1) * 105) + 205",
-                "\"Leaderboard\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TotalPoints",
-                "Text",
-                "=",
-                "ParseJson[ID].score"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "EggSprite",
-                "1050",
-                "((ParseJson[ID].position-1) * 105) + 220",
-                "\"Leaderboard\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ScalableCapability::ScalableBehavior::SetValue"
-              },
-              "parameters": [
-                "EggSprite",
-                "Scale",
-                "=",
-                "0.75"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "PositionLabel",
-                "150",
-                "((ParseJson[ID].position-1) * 105) + 195",
-                "\"Leaderboard\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "PositionLabel",
-                "Text",
-                "=",
-                "ParseJson[ID].position"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "ID",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -4427,6 +4479,87 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "isFullscreen",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "no",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "isFullscreen",
+            "=",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "FullscreenIcon",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "isFullscreen",
+            "Toggle",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

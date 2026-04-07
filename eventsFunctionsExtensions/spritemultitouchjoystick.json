@@ -2069,8 +2069,11 @@
     {
       "description": "Joystick that can be controlled by interacting with a touchscreen.",
       "fullName": "Multitouch Joystick",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "MultitouchJoystick",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -3373,8 +3376,11 @@
     {
       "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
       "fullName": "Multitouch button",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "MultitouchButton",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -3961,8 +3967,11 @@
     {
       "description": "Control a platformer character with a multitouch controller.",
       "fullName": "Platformer multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "PlatformerMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -4212,8 +4221,11 @@
     {
       "description": "Control a 3D physics character with a multitouch controller.",
       "fullName": "3D platformer multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Platformer3DMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -4384,8 +4396,11 @@
     {
       "description": "Control a 3D physics character with a multitouch controller.",
       "fullName": "3D shooter multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Shooter3DMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -4545,8 +4560,11 @@
     {
       "description": "Control camera rotations with a multitouch controller.",
       "fullName": "First person camera multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "FirstPersonMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -5747,8 +5765,11 @@
     {
       "description": "Control a 3D physics car with a multitouch controller.",
       "fullName": "3D car multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "PhysicsCar3DMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -5957,8 +5978,11 @@
     {
       "description": "Control a top-down character with a multitouch controller.",
       "fullName": "Top-down multitouch controller mapper",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "TopDownMultitouchMapper",
       "objectType": "",
+      "previewIconUrl": "",
       "quickCustomizationVisibility": "hidden",
       "eventsFunctions": [
         {
@@ -6563,8 +6587,11 @@
       "defaultName": "Joystick",
       "description": "Joystick for touchscreens.",
       "fullName": "Multitouch Joystick",
+      "helpPath": "",
+      "iconUrl": "",
       "isUsingLegacyInstancesRenderer": true,
       "name": "SpriteMultitouchJoystick",
+      "previewIconUrl": "",
       "objects": [
         {
           "adaptCollisionMaskAutomatically": false,

@@ -33,8 +33,11 @@
       "defaultName": "",
       "description": "",
       "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
       "isUsingLegacyInstancesRenderer": false,
       "name": "TutorialAlert1",
+      "previewIconUrl": "",
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
